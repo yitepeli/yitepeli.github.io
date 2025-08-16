@@ -1,0 +1,31 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+---
+
+Below is a selection of publications. Update `_data/publications.yml` to maintain this list.
+
+{% assign pubs = site.data.publications | sort: "year" | reverse %}
+{% assign years = "" | split: "" %}
+{% for p in pubs %}
+  {% unless years contains p.year %}
+  {% if forloop.index0 > 0 %}</ul>{% endif %}
+  <h2 id="{{ p.year }}">{{ p.year }}</h2>
+  <ul>
+  {% assign years = years | push: p.year %}
+  {% endunless %}
+  <li>
+    <strong>{{ p.title }}</strong>.<br/>
+    {{ p.authors }}.
+    {% if p.venue %}<em>{{ p.venue }}</em>.{% endif %}
+    {% if p.doi %} DOI: <a href="https://doi.org/{{ p.doi }}">{{ p.doi }}</a>.{% endif %}
+    {% if p.arxiv %} <a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>.{% endif %}
+    {% if p.pdf %} <a href="{{ p.pdf }}">pdf</a>.{% endif %}
+    {% if p.code %} <a href="{{ p.code }}">code</a>.{% endif %}
+    {% if p.note %} <em>({{ p.note }})</em>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+<p><small>Tip: keep authors in “Lastname, Firstname” format and bold your name using <code>&lt;strong&gt;</code> tags.</small></p>

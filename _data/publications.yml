@@ -1,0 +1,30 @@
+# Keep items in reverse-chronological order (newest first)
+
+- title: "OncoStratifier: Stratifying Oncogene-addicted Cohorts By Drug Response"
+  authors: "<strong>Tepeli, Yasin I.</strong>; Trastulla, Lucia; Gonçalves, Joana P.; Iorio, Francesco"
+  venue: "bioRxiv"
+  year: 2025
+  doi: "10.1101/2025.05.01.650955"
+  pdf: "https://www.biorxiv.org/content/biorxiv/early/2025/05/07/2025.05.01.650955.full.pdf"
+  note: "Withdrawn preprint"
+
+- title: "DCAST: Diverse Class-Aware Self-Training Mitigates Selection Bias for Fairer Learning"
+  authors: "<strong>Tepeli, Yasin I.</strong>; Gonçalves, Joana P."
+  venue: "arXiv"
+  year: 2024
+  arxiv: "2409.20126"
+
+- title: "ELISL: early–late integrated synthetic lethality prediction in cancer"
+  authors: "<strong>Tepeli, Yasin I.</strong>; Seale, Colm; Gonçalves, Joana P."
+  venue: "Bioinformatics, 40(1): btad764 (Collection 2024)"
+  year: 2024
+  doi: "10.1093/bioinformatics/btad764"
+  pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11616771/pdf/btad764.pdf"
+  code: "https://github.com/joanagoncalveslab/ELISL"
+
+- title: "PAMOGK: a pathway graph kernel-based multiomics approach for patient clustering"
+  authors: "<strong>Tepeli, Yasin Ilkagan</strong>; Ünal, Ali Burak; Akdemir, Furkan Mustafa; Taştan, Öznur"
+  venue: "Bioinformatics, 36(21): 5237–5246"
+  year: 2020
+  doi: "10.1093/bioinformatics/btaa655"
+  pdf: "https://academic.oup.com/bioinformatics/article-pdf/36/21/5237/50692790/btaa655.pdf"
