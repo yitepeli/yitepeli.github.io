@@ -4,16 +4,16 @@ title: Publications
 permalink: /publications/
 ---
 
-Below is a selection of publications. Update `_data/publications.yml` to maintain this list.
+<p>Below is a selection of publications. Update <code>_data/publications.yml</code> to maintain this list.</p>
 
 {% assign pubs = site.data.publications | sort: "year" | reverse %}
 {% assign years = "" | split: "" %}
 {% for p in pubs %}
   {% unless years contains p.year %}
-  {% if forloop.index0 > 0 %}</ul>{% endif %}
-  <h2 id="{{ p.year }}">{{ p.year }}</h2>
-  <ul>
-  {% assign years = years | push: p.year %}
+    {% if forloop.index0 > 0 %}</ul>{% endif %}
+    <h2 id="{{ p.year }}">{{ p.year }}</h2>
+    <ul>
+    {% assign years = years | push: p.year %}
   {% endunless %}
   <li>
     <strong>{{ p.title }}</strong>.<br/>

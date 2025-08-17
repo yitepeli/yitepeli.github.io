@@ -1,0 +1,76 @@
+---
+# Only the main Sass file needs front matter
+---
+
+@import "minima"; /* Keep the Minima base styles */
+
+/* ===== Header overrides ===== */
+.custom-header {
+  background: #fff;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.custom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 0.6rem;
+}
+
+.custom-nav .brand {
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  color: #111;
+  letter-spacing: 0.2px;
+}
+
+.site-nav .trigger {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+/* Nav links (desktop) */
+.nav-link {
+  display: inline-block;
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #222;
+  transition: background-color 120ms ease, color 120ms ease, transform 60ms ease;
+  font-weight: 500;
+  line-height: 1;
+}
+.nav-link:hover { background: #f2f3f5; }
+.nav-link.active {
+  background: #111;
+  color: #fff !important;
+}
+
+/* Burger menu behavior (keep Minima’s structure) */
+.nav-trigger { display: none; }
+.menu-icon { display: none; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .menu-icon { display: inline-block; }
+  .site-nav .trigger {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+    padding-top: 0.4rem;
+  }
+  .nav-trigger:checked ~ .trigger { display: flex; }
+  .nav-link { padding: 0.5rem 0.7rem; }
+}
+
+/* Optional: tighten global max width a bit */
+.wrapper {
+  max-width: 960px; /* Minima default ~800px; tweak to taste */
+}

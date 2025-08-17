@@ -1,0 +1,30 @@
+<header class="site-header custom-header" role="banner">
+    <div class="wrapper custom-nav">
+      <a class="brand" rel="author" href="{{ '/' | relative_url }}">
+        {{ site.title | escape }}
+      </a>
+  
+      <nav class="site-nav" role="navigation" aria-label="Main">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger" aria-label="Toggle navigation">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18" height="15" aria-hidden="true">
+              <path d="M18,1.5H0v-1h18v1z M18,8.5H0v-1h18v1z M18,14.5H0v-1h18v1z"/>
+            </svg>
+          </span>
+        </label>
+  
+        <div class="trigger">
+          {% for path in site.header_pages %}
+            {% assign p = site.pages | where: "path", path | first %}
+            {% if p %}
+              <a class="nav-link{% if page.url == p.url %} active{% endif %}" href="{{ p.url | relative_url }}">
+                {{ p.title | escape }}
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </nav>
+    </div>
+  </header>
+  
