@@ -74,3 +74,32 @@
 .wrapper {
   max-width: 960px; /* Minima default ~800px; tweak to taste */
 }
+
+/* Home page layout refinements */
+.page-title { margin: 0 0 0.85rem 0; }
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.hero__photo img {
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+.hero__intro { max-width: 60ch; }
+
+/* News list spacing */
+.news { padding-left: 1.2rem; }
+.news li { margin: 0.25rem 0; }
+.news time { font-variant-numeric: tabular-nums; color: #555; }
+
+/* Mobile tweaks */
+@media (max-width: 640px) {
+  .hero__intro { max-width: 100%; }
+}

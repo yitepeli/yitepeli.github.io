@@ -1,37 +1,41 @@
 ---
 layout: page
-title: ""        # Leave empty so Minima doesn't render the page title "Home"
+title: ""        # Keeps Minima from printing "Home"
 permalink: /
 ---
 
-<h1 style="margin:0 0 0.85rem 0;">Yasin Ilkagan Tepeli</h1>
+<h1 class="page-title">Yasin Ilkagan Tepeli</h1>
 
-<div style="display:flex; gap:1.25rem; align-items:flex-start; flex-wrap:wrap;">
-  <img src="{{ '/assets/img/profile.jpg' | relative_url }}"
-       alt="Portrait of Yasin Ilkagan Tepeli"
-       style="width:160px; height:160px; object-fit:cover; border-radius:50%; border:1px solid #ddd;">
-  <div>
+<section class="hero">
+  <figure class="hero__photo">
+    <img
+      src="{{ '/assets/img/profile.jpg' | relative_url }}"
+      alt="Portrait of Yasin Ilkagan Tepeli"
+      width="160" height="160"
+      decoding="async" fetchpriority="high">
+  </figure>
+
+  <div class="hero__intro">
     <p>
       I am a researcher focusing on computational methods to discover cancer treatment opportunities.
-      My work blends machine learning in bioinformatics (PAMOGK, ELISL), with emphasis on mitigating selection bias and domain shift
-      in real-world datasets (e.g., DCAST, Metric-DST) and robust inference for oncology.
+      My work blends machine learning in bioinformatics (PAMOGK, ELISL), with emphasis on mitigating selection bias
+      and domain shift in real-world datasets (e.g., DCAST, Metric-DST) and robust inference for oncology.
     </p>
     <p>
       I am based in the Netherlands and enjoy interdisciplinary collaboration and mentoring.
       You can reach me via the <a href="{{ '/contact/' | relative_url }}">contact</a> page.
     </p>
   </div>
-</div>
+</section>
 
 <hr/>
 
 <h3>News</h3>
-<ul>
-  <!-- <li><strong>2025-05-08</strong> — Withdrew the bioRxiv preprint <em>OncoStratifier: Stratifying Oncogene-addicted Cohorts By Drug Response</em>.</li>-->
-  
-  <li><strong>2024-11-27</strong> — Released <em>Metric-DST: Mitigating Selection Bias Through Diversity-Guided Semi-Supervised Metric Learning</em> on arXiv.</li>
-  <li><strong>2024-10-08</strong> — Released <em>DCAST: Diverse Class-Aware Self-Training Mitigates Selection Bias for Fairer Learning</em> on arXiv.</li>
-  <li><strong>2024-01-02</strong> — <em>ELISL: early–late integrated synthetic lethality prediction in cancer</em> published in <strong>Bioinformatics</strong> (Vol. 40, Issue 1).</li>
+<ul class="news">
+  <!-- <li><time datetime="2025-05-08">2025-05-08</time> — Withdrew the bioRxiv preprint <em>OncoStratifier: Stratifying Oncogene-addicted Cohorts By Drug Response</em>.</li> -->
+  <li><time datetime="2024-11-27">2024-11-27</time> — Released <em>Metric-DST: Mitigating Selection Bias Through Diversity-Guided Semi-Supervised Metric Learning</em> on arXiv.</li>
+  <li><time datetime="2024-10-08">2024-10-08</time> — Released <em>DCAST: Diverse Class-Aware Self-Training Mitigates Selection Bias for Fairer Learning</em> on arXiv.</li>
+  <li><time datetime="2024-01-02">2024-01-02</time> — <em>ELISL: early–late integrated synthetic lethality prediction in cancer</em> published in <strong>Bioinformatics</strong> (Vol. 40, Issue 1).</li>
 </ul>
 
 <hr/>
