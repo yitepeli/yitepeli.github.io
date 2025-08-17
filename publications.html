@@ -4,28 +4,69 @@ title: Publications
 permalink: /publications/
 ---
 
-<!--- <p>Below is a selection of publications. Update <code>_data/publications.yml</code> to maintain this list. </p>--->
+<!--- <p>Click a title to open the paper. Links below each entry provide quick access to abstracts, PDFs, citation info, BibTeX, code, or posters when available.</p> ---> 
 
+<ul class="pub-list">
 {% assign pubs = site.data.publications | sort: "year" | reverse %}
-{% assign years = "" | split: "" %}
 {% for p in pubs %}
-  {% unless years contains p.year %}
-    {% if forloop.index0 > 0 %}</ul>{% endif %}
-    <h2 id="{{ p.year }}">{{ p.year }}</h2>
-    <ul>
-    {% assign years = years | push: p.year %}
-  {% endunless %}
-  <li>
-    <strong>{{ p.title }}</strong>.<br/>
-    {{ p.authors }}.
-    {% if p.venue %}<em>{{ p.venue }}</em>.{% endif %}
-    {% if p.doi %} DOI: <a href="https://doi.org/{{ p.doi }}">{{ p.doi }}</a>.{% endif %}
-    {% if p.arxiv %} <a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>.{% endif %}
-    {% if p.pdf %} <a href="{{ p.pdf }}">pdf</a>.{% endif %}
-    {% if p.code %} <a href="{{ p.code }}">code</a>.{% endif %}
-    {% if p.note %} <em>({{ p.note }})</em>{% endif %}
+  <li class="pub">
+    <div class="pub-left">
+      {% if p.presented %}{{ p.presented }}
+      {% elsif p.venue %}{{ p.venue }}
+      {% endif %}
+    </div>
+
+    <div class="pub-main">
+      <a class="pub-title" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
+      <div class="pub-authors">{{ p.authors }}</div>
+
+      <div class="pub-links">
+        {% if p.abstract %}
+          <a class="pub-link" href="{{ p.abstract }}" target="_blank" rel="noopener" title="Abstract" aria-label="Abstract">
+            <!-- document icon -->
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M14 2v6h6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span>Abstract</span>
+          </a>
+        {% endif %}
+        {% if p.pdf %}
+          <a class="pub-link" href="{{ p.pdf }}" target="_blank" rel="noopener" title="PDF" aria-label="PDF">
+            <!-- pdf/file icon -->
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M14 2v6h6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span>PDF</span>
+          </a>
+        {% endif %}
+        {% if p.doi %}
+          <a class="pub-link" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener" title="Cite / DOI" aria-label="Cite / DOI">
+            <!-- link icon -->
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.07 0l3.54-3.54a5 5 0 0 0-7.07-7.07L11 4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M14 11a5 5 0 0 0-7.07 0L3.4 14.53a5 5 0 0 0 7.07 7.07L13 20" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span>Cite</span>
+          </a>
+        {% endif %}
+        {% if p.bibtex %}
+          <a class="pub-link" href="{{ p.bibtex }}" target="_blank" rel="noopener" title="BibTeX" aria-label="BibTeX">
+            <!-- curly braces icon -->
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 4c-2 0-3 1-3 3v2c0 1-1 2-2 2 1 0 2 1 2 2v2c0 2 1 3 3 3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 4c2 0 3 1 3 3v2c0 1 1 2 2 2-1 0-2 1-2 2v2c0 2-1 3-3 3" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span>BibTeX</span>
+          </a>
+        {% endif %}
+        {% if p.code %}
+          <a class="pub-link" href="{{ p.code }}" target="_blank" rel="noopener" title="Code" aria-label="Code">
+            <!-- code icon -->
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><polyline points="8 6 2 12 8 18" fill="none" stroke="currentColor" stroke-width="1.8"/><polyline points="16 6 22 12 16 18" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span>Code</span>
+          </a>
+        {% endif %}
+        {% if p.poster %}
+          <a class="pub-link" href="{{ p.poster }}" target="_blank" rel="noopener" title="Poster" aria-label="Poster">
+            <!-- image icon -->
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 13l3-3 4 5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            <span>Poster</span>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="pub-year">{{ p.year }}</div>
   </li>
 {% endfor %}
 </ul>
-
-<!--- <p><small>Tip: keep authors in “Lastname, Firstname” format and bold your name using <code>&lt;strong&gt;</code> tags.</small></p> </p>--->
