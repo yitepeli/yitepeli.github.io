@@ -3,7 +3,7 @@
 
 - title: "Computational Tools for Optimizing Targeted Cancer Treatments and Addressing Bias"
   authors: "Yasin I. Tepeli"
-  venue: "PhD thesis, Delft University of Technology"
+  venue: "PhD thesis"
   year: 2025
   url: "https://repository.tudelft.nl/record/uuid:a51440a5-7bd5-4e3b-b42f-04fa44325a89"
   doi: "10.4233/uuid:a51440a5-7bd5-4e3b-b42f-04fa44325a89"
@@ -13,7 +13,7 @@
 
 - title: "ELISL: early–late integrated synthetic lethality prediction in cancer"
   authors: "Yasin I. Tepeli, Colm Seale, Joana P. Gonçalves"
-  venue: "Bioinformatics, 40(1): btad764"
+  venue: "Bioinformatics, Talk — BioSB 2022"
   year: 2024
   url: "https://academic.oup.com/bioinformatics/article/40/1/btad764/7479688"
   doi: "10.1093/bioinformatics/btad764"
@@ -25,7 +25,7 @@
 
 - title: "Overcoming selection bias in synthetic lethality prediction"
   authors: "Colm Seale, Yasin I. Tepeli, Joana P. Gonçalves"
-  venue: "Bioinformatics, 38(18): 4360–4368"
+  venue: "Bioinformatics"
   year: 2022
   url: "https://academic.oup.com/bioinformatics/article/38/18/4360/6649727"
   doi: "10.1093/bioinformatics/btac523"
@@ -36,7 +36,7 @@
 
 - title: "PAMOGK: a pathway graph kernel-based multiomics approach for patient clustering"
   authors: "Yasin Ilkagan Tepeli, Ali Burak Ünal, Furkan Mustafa Akdemir, Öznur Taştan"
-  venue: "Bioinformatics, 36(21): 5237–5246"
+  venue: "Bioinformatics, Talk — RECOMB-CCB 2020; Poster — HIBIT 2020 (3rd prize)"
   year: 2020
   url: "https://academic.oup.com/bioinformatics/article/36/21/5237/5878954"
   doi: "10.1093/bioinformatics/btaa655"
@@ -49,7 +49,7 @@
 
 - title: "Metric-DST: Mitigating Selection Bias Through Diversity-Guided Semi-Supervised Metric Learning"
   authors: "Yasin I. Tepeli, Mathijs J. de Wolf, Joana P. Gonçalves"
-  venue: "arXiv:2411.18442"
+  venue: "arXiv, Talk — BioSB 2024"
   year: 2024
   url: "https://arxiv.org/abs/2411.18442"
   doi: "10.48550/arXiv.2411.18442"
@@ -61,7 +61,7 @@
 
 - title: "DCAST: Diverse Class-Aware Self-Training Mitigates Selection Bias for Fairer Learning"
   authors: "Yasin I. Tepeli, Joana P. Gonçalves"
-  venue: "arXiv:2409.20126"
+  venue: "arXiv, Poster — BioSB 2023"
   year: 2024
   url: "https://arxiv.org/abs/2409.20126"
   doi: "10.48550/arXiv.2409.20126"
@@ -72,7 +72,7 @@
 
 - title: "GEGE: Predicting Gene Essentiality with Graph Embeddings"
   authors: "Halil İbrahim Kuru, Yasin İlkağan Tepeli, Öznur Taştan"
-  venue: "Düzce University Journal of Science and Technology, 10(3): 1567–1577"
+  venue: "Düzce University Journal of Science and Technology"
   year: 2022
   url: "https://dergipark.org.tr/en/pub/dubited/issue/71289/1028387"
   doi: "10.29130/dubited.1028387"
@@ -82,7 +82,7 @@
 
 - title: "SNMF: Integrated Learning of Mutational Signatures and Prediction of DNA Repair Deficiencies"
   authors: "Sander Goossens, Colm Seale, Joana P. Gonçalves, <strong>Yasin I. Tepeli</strong>"
-  venue: "bioRxiv (preprint)"
+  venue: "bioRxiv"
   year: 2024
   url: "https://www.biorxiv.org/content/10.1101/2024.11.27.624656v1"
   doi: "10.1101/2024.11.27.624656"
@@ -92,7 +92,7 @@
 
 - title: "A Metagenomic Study of Antibiotic Resistance Across Diverse Soil Types and Geographical Locations"
   authors: "Stephanie Pillay, <strong>Yasin I. Tepeli</strong>, Paul van Lent, Thomas Abeel"
-  venue: "bioRxiv (preprint)"
+  venue: "bioRxiv"
   year: 2024
   url: "https://www.biorxiv.org/content/10.1101/2024.09.30.615846v1"
   doi: "10.1101/2024.09.30.615846"
