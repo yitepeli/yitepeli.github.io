@@ -1,31 +1,27 @@
-# Keep items in reverse-chronological order (newest first)
+title: "Yasin Ilkagan Tepeli — Research"
+description: "Computational methods to discover cancer treatment opportunities"
+author: "Yasin Ilkagan Tepeli"
+url: ""  # set to https://<username>.github.io (no trailing slash) after you push
+theme: minima
 
-- title: "OncoStratifier: Stratifying Oncogene-addicted Cohorts By Drug Response"
-  authors: "<strong>Tepeli, Yasin I.</strong>; Trastulla, Lucia; Gonçalves, Joana P.; Iorio, Francesco"
-  venue: "bioRxiv"
-  year: 2025
-  doi: "10.1101/2025.05.01.650955"
-  pdf: "https://www.biorxiv.org/content/10.1101/2025.05.01.650955v2.full.pdf"
-  note: "Withdrawn"
+# Top navigation (now points to HTML pages)
+header_pages:
+  - publications.html
+  - research.html
+  - rest.html
+  - contact.html
 
-- title: "DCAST: Diverse Class-Aware Self-Training Mitigates Selection Bias for Fairer Learning"
-  authors: "<strong>Tepeli, Yasin I.</strong>; Gonçalves, Joana P."
-  venue: "arXiv"
-  year: 2024
-  arxiv: "2409.20126"
-  doi: "10.48550/arXiv.2409.20126"
+# Minima theme options
+minima:
+  skin: classic
+  social_links:
+    - { platform: github, user_url: "https://github.com/yitepeli" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/yitepeli" }
 
-- title: "ELISL: early–late integrated synthetic lethality prediction in cancer"
-  authors: "<strong>Tepeli, Yasin I.</strong>; Seale, Colm; Gonçalves, Joana P."
-  venue: "Bioinformatics 40(1): btad764"
-  year: 2024
-  doi: "10.1093/bioinformatics/btad764"
-  pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11616771/pdf/btad764.pdf"
-  code: "https://github.com/joanagoncalveslab/ELISL"
+# Clean URLs
+permalink: pretty
 
-- title: "PAMOGK: a pathway graph kernel-based multiomics approach for patient clustering"
-  authors: "<strong>Tepeli, Yasin Ilkagan</strong>; Ünal, Ali Burak; Akdemir, Furkan Mustafa; Taştan, Öznur"
-  venue: "Bioinformatics 36(21): 5237–5246"
-  year: 2020
-  doi: "10.1093/bioinformatics/btaa655"
-  pdf: "https://academic.oup.com/bioinformatics/article-pdf/36/21/5237/50692790/btaa655.pdf"
+# Markdown engine (kept for compatibility; Liquid still works in HTML with front matter)
+markdown: kramdown
+kramdown:
+  input: GFM

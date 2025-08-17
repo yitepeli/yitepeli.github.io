@@ -8,6 +8,12 @@
 #  pdf: "https://www.biorxiv.org/content/biorxiv/early/2025/05/07/2025.05.01.650955.full.pdf"
 #  note: "Withdrawn preprint"
 
+- title: "Metric-DST: Mitigating Selection Bias Through Diversity-Guided Semi-Supervised Metric Learning"
+  authors: "<strong>Tepeli, Yasin I.</strong>; de Wolf, Mathijs; Gonçalves, Joana P."
+  venue: "arXiv"
+  year: 2024
+  arxiv: "2411.18442"
+
 - title: "DCAST: Diverse Class-Aware Self-Training Mitigates Selection Bias for Fairer Learning"
   authors: "<strong>Tepeli, Yasin I.</strong>; Gonçalves, Joana P."
   venue: "arXiv"
