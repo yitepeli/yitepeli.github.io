@@ -10,7 +10,7 @@ permalink: /
     <h1 style="margin-top:0;">Yasin Ilkagan Tepeli</h1>
     <p>
       I am a researcher focusing on computational methods to discover cancer treatment opportunities.
-      My work blends machine learning with biomedicine, with emphasis on mitigating selection bias and domain shift in real-world datasets (e.g., <em>DCAST</em>, Metric-DST) and robust inference for oncology.
+      My work blends machine learning with biomedicine, with emphasis on mitigating selection bias and domain shift in real-world datasets (e.g., DCAST, ELISL) and robust inference for oncology.
     </p>
     <p>
       I am based in the Netherlands and enjoy interdisciplinary collaboration and mentoring.
@@ -22,9 +22,10 @@ permalink: /
 <hr/>
 
 ### News
-- [YYYY-MM-DD] Paper title — venue (accepted).
-- [YYYY-MM-DD] Invited talk at …
-- [YYYY-MM-DD] New preprint on …
+<!--- **2025-05-08** — Withdrew the bioRxiv preprint *OncoStratifier: Stratifying Oncogene-addicted Cohorts By Drug Response*.  -->
+- **2025-05-07** — Posted the bioRxiv preprint *OncoStratifier: Stratifying Oncogene-addicted Cohorts By Drug Response*.  
+- **2024-10-08** — Released *DCAST: Diverse Class-Aware Self-Training Mitigates Selection Bias for Fairer Learning* on arXiv.  
+- **2024-01-02** — *ELISL: early–late integrated synthetic lethality prediction in cancer* published in **Bioinformatics** (Vol. 40, Issue 1).
 
 <hr/>
 

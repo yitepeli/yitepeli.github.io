@@ -1,12 +1,12 @@
 # Keep items in reverse-chronological order (newest first)
 
-- title: "OncoStratifier: Stratifying Oncogene-addicted Cohorts By Drug Response"
-  authors: "<strong>Tepeli, Yasin I.</strong>; Trastulla, Lucia; Gonçalves, Joana P.; Iorio, Francesco"
-  venue: "bioRxiv"
-  year: 2025
-  doi: "10.1101/2025.05.01.650955"
-  pdf: "https://www.biorxiv.org/content/biorxiv/early/2025/05/07/2025.05.01.650955.full.pdf"
-  note: "Withdrawn preprint"
+#- title: "OncoStratifier: Stratifying Oncogene-addicted Cohorts By Drug Response"
+#  authors: "<strong>Tepeli, Yasin I.</strong>; Trastulla, Lucia; Gonçalves, Joana P.; Iorio, Francesco"
+#  venue: "bioRxiv"
+#  year: 2025
+#  doi: "10.1101/2025.05.01.650955"
+#  pdf: "https://www.biorxiv.org/content/biorxiv/early/2025/05/07/2025.05.01.650955.full.pdf"
+#  note: "Withdrawn preprint"
 
 - title: "DCAST: Diverse Class-Aware Self-Training Mitigates Selection Bias for Fairer Learning"
   authors: "<strong>Tepeli, Yasin I.</strong>; Gonçalves, Joana P."
