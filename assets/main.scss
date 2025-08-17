@@ -108,28 +108,28 @@
     background: #fff;
     border-top: 1px solid rgba(0,0,0,0.06);
     box-shadow: 0 -2px 10px rgba(0,0,0,0.03);
-  }
-  
-  .footer-row {
+}
+
+.footer-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: .75rem;
     padding-block: .85rem;
-  }
+}
   
   .footer-brand {
     font-size: 0.95rem;
     color: #333;
-  }
-  
-  .footer-links {
+}
+
+.footer-links {
     display: flex;
     gap: .5rem .75rem;
     flex-wrap: wrap;
-  }
-  
-  .footer-link {
+}
+
+.footer-link {
     display: inline-flex;
     align-items: center;
     gap: .4rem;
@@ -139,14 +139,14 @@
     padding: .3rem .5rem;
     border-radius: 999px;
     transition: background-color 120ms ease, color 120ms ease, transform 60ms ease;
-  }
+}
+
+.footer-link svg { display: block; }
+.footer-link:hover { background: #f2f3f5; color: #111; }
   
-  .footer-link svg { display: block; }
-  .footer-link:hover { background: #f2f3f5; color: #111; }
-  
-  @media (max-width: 640px) {
+@media (max-width: 640px) {
     .footer-row { flex-direction: column; align-items: flex-start; }
-  }
+}
 
   /* --- Publications layout --- */
 .pub-list {
@@ -155,8 +155,8 @@
     margin: 0.75rem 0 0;
     display: grid;
     gap: 0.85rem;
-  }
-  .pub {
+}
+.pub {
     display: grid;
     grid-template-columns: 1fr 6fr auto; /* left / main / year */
     gap: 0.75rem 1rem;
@@ -165,29 +165,29 @@
     border: 1px solid rgba(0,0,0,0.06);
     border-radius: 12px;
     background: #fff;
-  }
-  .pub-left {
+}
+.pub-left {
     font-size: 0.92rem;
     color: #555;
-  }
-  .pub-main { min-width: 0; }
-  .pub-title {
+}
+.pub-main { min-width: 0; }
+.pub-title {
     font-weight: 600;
     text-decoration: none;
     display: inline-block;
     line-height: 1.25;
-  }
-  .pub-title:hover { text-decoration: underline; }
-  .pub-authors { margin-top: 0.2rem; color: #444; font-size: 0.95rem; }
-  .pub-year { font-variant-numeric: tabular-nums; color: #555; }
-  
-  .pub-links {
+}
+.pub-title:hover { text-decoration: underline; }
+.pub-authors { margin-top: 0.2rem; color: #444; font-size: 0.95rem; }
+.pub-year { font-variant-numeric: tabular-nums; color: #555; }
+
+.pub-links {
     display: flex;
     flex-wrap: wrap;
     gap: .35rem .6rem;
     margin-top: .45rem;
-  }
-  .pub-link {
+}
+.pub-link {
     display: inline-flex;
     align-items: center;
     gap: .35rem;
@@ -199,11 +199,98 @@
     border: 1px solid rgba(0,0,0,0.05);
     font-size: .9rem;
     transition: background-color 120ms ease, color 120ms ease;
-  }
-  .pub-link:hover { background: #eef0f2; color: #111; }
-  
-  @media (max-width: 720px) {
+}
+.pub-link:hover { background: #eef0f2; color: #111; }
+
+@media (max-width: 720px) {
     .pub { grid-template-columns: 1fr; }
     .pub-year { order: -1; justify-self: end; }
+}
+
+.footer-link[aria-label^="ORCID"] { color: #A6CE39; }
+
+/* CV embed container */
+.cv-container {
+  width: 100%;
+  height: 100vh;           /* full viewport height; adjust if you prefer */
+  max-height: 1200px;      /* optional cap */
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+/* Simple button look for the download link */
+a.button {
+  display: inline-block;
+  margin-top: .6rem;
+  padding: .45rem .8rem;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #111;
+  background: #f3f4f6;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+a.button:hover { background: #e9ebef; }
+
+/* --- Experiences & Skills page --- */
+.xp-summary + .xp-section { margin-top: 1.25rem; }
+
+.xp-section {
+  margin: 1.25rem 0;
+}
+.xp-section > h2 {
+  margin-bottom: .6rem;
+}
+
+.xp-item {
+  display: grid;
+  grid-template-columns: 1.2fr 3fr;
+  gap: .6rem 1rem;
+  padding: .85rem 1rem;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 12px;
+  background: #fff;
+  + .xp-item { margin-top: .6rem; }
+}
+.xp-item__left {
+  color: #555;
+  font-size: .95rem;
+}
+.xp-item__when {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+.xp-item__where { margin-top: .15rem; }
+.xp-item__title {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.xp-bullets {
+  margin: .2rem 0 0;
+}
+.xp-bullets li {
+  margin: .25rem 0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem .5rem;
+}
+.tag {
+  padding: .28rem .55rem;
+  border-radius: 999px;
+  background: #f7f7f8;
+  border: 1px solid rgba(0,0,0,0.06);
+  font-size: .9rem;
+  color: #333;
+}
+
+@media (max-width: 720px) {
+  .xp-item {
+    grid-template-columns: 1fr;
   }
-  
+}

@@ -8,8 +8,8 @@ theme: minima
 header_pages:
   - publications.html
   - research.html
-  - rest.html
-  - contact.html
+  - experiences.html
+  - cv.html
 
 # Minima theme options
 minima:
