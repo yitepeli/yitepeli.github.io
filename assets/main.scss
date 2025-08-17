@@ -99,6 +99,10 @@
 .news li { margin: 0.25rem 0; }
 .news time { font-variant-numeric: tabular-nums; color: #555; }
 
+.post-content {
+    margin-bottom: 1px;
+}
+
 /* Mobile tweaks */
 @media (max-width: 640px) {
   .hero__intro { max-width: 100%; }
