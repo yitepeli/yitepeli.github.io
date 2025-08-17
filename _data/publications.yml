@@ -7,10 +7,9 @@
   year: 2025
   url: "https://repository.tudelft.nl/record/uuid:a51440a5-7bd5-4e3b-b42f-04fa44325a89"
   doi: "10.4233/uuid:a51440a5-7bd5-4e3b-b42f-04fa44325a89"
-  links:
-    abstract: "https://repository.tudelft.nl/record/uuid:a51440a5-7bd5-4e3b-b42f-04fa44325a89"
-    pdf: "https://repository.tudelft.nl/record/uuid:a51440a5-7bd5-4e3b-b42f-04fa44325a89/files/Tepeli_PhD_thesis.pdf"
-    bibtex: "https://api.datacite.org/dois/10.4233/uuid:a51440a5-7bd5-4e3b-b42f-04fa44325a89/transform/application/x-bibtex"
+  abstract: "https://repository.tudelft.nl/record/uuid:a51440a5-7bd5-4e3b-b42f-04fa44325a89"
+  pdf: "https://repository.tudelft.nl/record/uuid:a51440a5-7bd5-4e3b-b42f-04fa44325a89/files/Tepeli_PhD_thesis.pdf"
+  bibtex: "https://www.doi2bib.org/bib/10.4233/uuid:a51440a5-7bd5-4e3b-b42f-04fa44325a89"
 
 - title: "ELISL: early–late integrated synthetic lethality prediction in cancer"
   authors: "Yasin I. Tepeli, Colm Seale, Joana P. Gonçalves"
@@ -18,12 +17,11 @@
   year: 2024
   url: "https://academic.oup.com/bioinformatics/article/40/1/btad764/7479688"
   doi: "10.1093/bioinformatics/btad764"
-  links:
-    abstract: "https://pubmed.ncbi.nlm.nih.gov/38113447/"
-    pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11616771/pdf/btad764.pdf"
-    cite: "https://academic.oup.com/bioinformatics/article/40/1/btad764/7479688#citation"
-    bibtex: "https://api.crossref.org/works/10.1093/bioinformatics/btad764/transform/application/x-bibtex"
-    code: "https://github.com/joanagoncalveslab/ELISL"
+  abstract: "https://pubmed.ncbi.nlm.nih.gov/38113447/"
+  pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11616771/pdf/btad764.pdf"
+  cite: "https://academic.oup.com/bioinformatics/article/40/1/btad764/7479688#citation"
+  bibtex: "https://www.doi2bib.org/bib/10.1093/bioinformatics/btad764"
+  code: "https://github.com/joanagoncalveslab/ELISL"
 
 - title: "Overcoming selection bias in synthetic lethality prediction"
   authors: "Colm Seale, Yasin I. Tepeli, Joana P. Gonçalves"
@@ -31,11 +29,10 @@
   year: 2022
   url: "https://academic.oup.com/bioinformatics/article/38/18/4360/6649727"
   doi: "10.1093/bioinformatics/btac523"
-  links:
-    abstract: "https://pubmed.ncbi.nlm.nih.gov/35876858/"
-    pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9477536/pdf/btac523.pdf"
-    cite: "https://academic.oup.com/bioinformatics/article/38/18/4360/6649727#citation"
-    bibtex: "https://api.crossref.org/works/10.1093/bioinformatics/btac523/transform/application/x-bibtex"
+  abstract: "https://pubmed.ncbi.nlm.nih.gov/35876858/"
+  pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9477536/pdf/btac523.pdf"
+  cite: "https://academic.oup.com/bioinformatics/article/38/18/4360/6649727#citation"
+  bibtex: "https://www.doi2bib.org/bib/10.1093/bioinformatics/btac523"
 
 - title: "PAMOGK: a pathway graph kernel-based multiomics approach for patient clustering"
   authors: "Yasin Ilkagan Tepeli, Ali Burak Ünal, Furkan Mustafa Akdemir, Öznur Taştan"
@@ -43,13 +40,12 @@
   year: 2020
   url: "https://academic.oup.com/bioinformatics/article/36/21/5237/5878954"
   doi: "10.1093/bioinformatics/btaa655"
-  presented: "Talk — RECOMB-CCB Satellite (2020, virtual); Poster — HIBIT 2020 (3rd prize)"
-  links:
-    abstract: "https://pubmed.ncbi.nlm.nih.gov/32730565/"
-    pdf: "https://academic.oup.com/bioinformatics/article-pdf/36/21/5237/50692790/btaa655.pdf"
-    cite: "https://academic.oup.com/bioinformatics/article/36/21/5237/5878954#citation"
-    bibtex: "https://api.crossref.org/works/10.1093/bioinformatics/btaa655/transform/application/x-bibtex"
-    code: "https://github.com/tastanlab/pamogk"
+  presented: "Talk — RECOMB-CCB; Poster — HIBIT 2020 (3rd prize)"
+  abstract: "https://pubmed.ncbi.nlm.nih.gov/32730565/"
+  pdf: "https://academic.oup.com/bioinformatics/article-pdf/36/21/5237/50692790/btaa655.pdf"
+  cite: "https://academic.oup.com/bioinformatics/article/36/21/5237/5878954#citation"
+  bibtex: "https://www.doi2bib.org/bib/10.1093/bioinformatics/btaa655"
+  code: "https://github.com/tastanlab/pamogk"
 
 - title: "Metric-DST: Mitigating Selection Bias Through Diversity-Guided Semi-Supervised Metric Learning"
   authors: "Yasin I. Tepeli, Mathijs J. de Wolf, Joana P. Gonçalves"
@@ -57,12 +53,11 @@
   year: 2024
   url: "https://arxiv.org/abs/2411.18442"
   doi: "10.48550/arXiv.2411.18442"
-  links:
-    abstract: "https://arxiv.org/abs/2411.18442"
-    pdf: "https://arxiv.org/pdf/2411.18442.pdf"
-    bibtex: "https://api.datacite.org/dois/10.48550/arXiv.2411.18442/transform/application/x-bibtex"
-    data: "https://data.4tu.nl/datasets/206ef581-11a1-4a01-9595-576e7ec8b7c1"
-    code: "https://arxiv.org/abs/2411.18442"   # add repo link here if/when public
+  abstract: "https://arxiv.org/abs/2411.18442"
+  pdf: "https://arxiv.org/pdf/2411.18442.pdf"
+  bibtex: "https://www.doi2bib.org/bib/10.48550/arXiv.2411.18442"
+  data: "https://data.4tu.nl/datasets/206ef581-11a1-4a01-9595-576e7ec8b7c1"
+  code: "https://github.com/joanagoncalveslab/Metric-DST"   # add repo link here if/when public
 
 - title: "DCAST: Diverse Class-Aware Self-Training Mitigates Selection Bias for Fairer Learning"
   authors: "Yasin I. Tepeli, Joana P. Gonçalves"
@@ -70,10 +65,10 @@
   year: 2024
   url: "https://arxiv.org/abs/2409.20126"
   doi: "10.48550/arXiv.2409.20126"
-  links:
-    abstract: "https://arxiv.org/abs/2409.20126"
-    pdf: "https://arxiv.org/pdf/2409.20126.pdf"
-    bibtex: "https://api.datacite.org/dois/10.48550/arXiv.2409.20126/transform/application/x-bibtex"
+  abstract: "https://arxiv.org/abs/2409.20126"
+  pdf: "https://arxiv.org/pdf/2409.20126.pdf"
+  bibtex: "https://www.doi2bib.org/bib/10.48550/arXiv.2409.20126"
+  code: "https://github.com/joanagoncalveslab/DCAST"   # add repo link here if/when public
 
 - title: "GEGE: Predicting Gene Essentiality with Graph Embeddings"
   authors: "Halil İbrahim Kuru, Yasin İlkağan Tepeli, Öznur Taştan"
@@ -81,10 +76,9 @@
   year: 2022
   url: "https://dergipark.org.tr/en/pub/dubited/issue/71289/1028387"
   doi: "10.29130/dubited.1028387"
-  links:
-    abstract: "https://dergipark.org.tr/en/pub/dubited/issue/71289/1028387"
-    pdf: "https://dergipark.org.tr/en/download/article-file/2099646"
-    bibtex: "https://dergipark.org.tr/en/pub/dubited/issue/71289/1028387"  # BibTeX available via page button
+  abstract: "https://dergipark.org.tr/en/pub/dubited/issue/71289/1028387"
+  pdf: "https://dergipark.org.tr/en/download/article-file/2099646"
+  bibtex: "https://www.doi2bib.org/bib/10.29130/dubited.1028387"
 
 - title: "SNMF: Integrated Learning of Mutational Signatures and Prediction of DNA Repair Deficiencies"
   authors: "Sander Goossens, Colm Seale, Joana P. Gonçalves, <strong>Yasin I. Tepeli</strong>"
@@ -94,7 +88,7 @@
   doi: "10.1101/2024.11.27.624656"
   abstract: "https://www.biorxiv.org/content/10.1101/2024.11.27.624656v1"
   pdf: "https://www.biorxiv.org/content/10.1101/2024.11.27.624656v1.full.pdf"
-  bibtex: "https://api.datacite.org/dois/10.1101/2024.11.27.624656/transform/application/x-bibtex"
+  bibtex: "https://www.doi2bib.org/bib/10.1101/2024.11.27.624656"
 
 - title: "A Metagenomic Study of Antibiotic Resistance Across Diverse Soil Types and Geographical Locations"
   authors: "Stephanie Pillay, <strong>Yasin I. Tepeli</strong>, Paul van Lent, Thomas Abeel"
@@ -104,19 +98,19 @@
   doi: "10.1101/2024.09.30.615846"
   abstract: "https://www.biorxiv.org/content/10.1101/2024.09.30.615846v1"
   pdf: "https://www.biorxiv.org/content/10.1101/2024.09.30.615846v1.full.pdf"
-  bibtex: "https://api.datacite.org/dois/10.1101/2024.09.30.615846/transform/application/x-bibtex"
+  bibtex: "https://www.doi2bib.org/bib/10.1101/2024.09.30.615846"
   data: "https://data.4tu.nl/datasets/8b59c203-747b-4e9c-a76e-7ae57b349671/1"
 
-- title: "Importance Weight-ing Domain Adaptation Beyond Specific Target Domains"
+- title: "Importance Weighting Domain Adaptation Beyond Specific Target Domains"
   authors: "Andrei C. Tociu, <strong>Yasin I. Tepeli</strong>, Joana P. Gonçalves"
-  presented: "BNAIC/BeneLearn 2023 (poster)"
+  presented: "BNAIC/BeneLearn 2023 (Student Poster)"
   year: 2023
   url: "https://bnaic2023.tudelft.nl/pre-proceedings"
   poster: "https://bnaic2023.tudelft.nl/ppitches"
 
 - title: "Deep Domain Adaptation without Access to a Specific Target Domain"
   authors: "Emiel Witting, <strong>Yasin I. Tepeli</strong>, Joana P. Gonçalves"
-  presented: "BNAIC/BeneLearn 2023 (student paper)"
+  presented: "BNAIC/BeneLearn 2023 (Student Poster)"
   year: 2023
   url: "https://bnaic2023.tudelft.nl/static/media/BNAICBENELEARN_2023_paper_53.7bc08f472f3c5e2c829a.pdf"
   pdf: "https://bnaic2023.tudelft.nl/static/media/BNAICBENELEARN_2023_paper_53.7bc08f472f3c5e2c829a.pdf"
