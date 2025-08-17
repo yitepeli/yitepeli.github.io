@@ -4,28 +4,204 @@ title: Research
 permalink: /research/
 ---
 
-<h2>Overview</h2>
-<p>
-  My research aims to mitigate selection bias and domain shift in real-world oncology datasets using
-  diversity-guided semi-supervised and metric learning, with robust evaluation under distribution shift.
-</p>
+<section class="rd-intro">
+  <h2>Research Directions & Interests</h2>
+  <p>
+    I develop machine-learning methods for computational oncology, aiming to identify therapeutic
+    targets and robustly translate multi-omics evidence into clinical insight. Methodologically,
+    my work spans <strong>bias/selection-shift mitigation</strong>, <strong>semi-supervised & metric learning</strong>,
+    <strong>graph-based modeling</strong>, and <strong>multi-omics integration</strong> for tasks such as
+    synthetic-lethality prediction, patient stratification, and target prioritization.
+  </p>
+  <ul class="rd-bullets">
+    <li>Bias & distribution shift: selection-bias diagnosis/mitigation, fair evaluation under shift.</li>
+    <li>Semi-supervised & metric learning with diversity guidance; reliability under limited labels.</li>
+    <li>Graphs & embeddings: pathway/interaction-aware representations for biology.</li>
+    <li>Multi-omics integration: combining transcriptomics, genomics, and functional screens.</li>
+  </ul>
+</section>
 
-<h2>Selected Directions</h2>
-<ul>
-  <li><strong>Bias-aware learning in health data:</strong> Methods that diagnose and mitigate selection bias and hierarchy bias.</li>
-  <li><strong>Semi-supervised metric learning:</strong> Diversity-guided strategies to leverage unlabeled data for fairer models.</li>
-  <li><strong>Multimodal integration:</strong> Joint modeling of omics, imaging, and clinical data for translational impact.</li>
-</ul>
+<section class="projects">
+  <h2>Projects</h2>
 
-<h2>Representative Projects</h2>
-<ul>
-  <li><strong>DCAST</strong> — Diverse Class-Aware Self-Training for fairer learning under selection bias.</li>
-  <li><strong>Metric-DST</strong> — Diversity-guided semi-supervised metric learning to reduce selection bias.</li>
-  <li><strong>ELISL</strong> — Early–Late Integrated Synthetic Lethality prediction combining sequence embeddings with context-specific omics.</li>
-</ul>
+  <!-- Metric-DST -->
+  <article class="project-card">
+    <img class="project-card__img"
+         src="{{ '/assets/img/projects/metric-dst.jpg' | relative_url }}"
+         alt="Conceptual illustration for Metric-DST"
+         loading="lazy" width="320" height="200">
+    <div class="project-card__body">
+      <h3 class="project-card__title">Metric-DST</h3>
+      <p class="project-card__meta">Bias mitigation • Semi-supervised metric learning • Target discovery</p>
+      <p class="project-card__abstract">
+        Diversity-guided semi-supervised <em>metric</em> learning that reduces selection bias and improves
+        robustness under domain shift. Designed for oncology tasks such as therapeutic target discovery and
+        patient stratification where label sparsity and sample bias are prevalent.
+      </p>
+      <div class="project-card__links">
+        <a class="chip" href="https://arxiv.org/abs/2411.18442" target="_blank" rel="noopener">Paper</a>
+        <a class="chip" href="https://arxiv.org/pdf/2411.18442.pdf" target="_blank" rel="noopener">PDF</a>
+        <a class="chip" href="https://doi.org/10.48550/arXiv.2411.18442" target="_blank" rel="noopener">DOI</a>
+        <a class="chip" href="https://data.4tu.nl/datasets/206ef581-11a1-4a01-9595-576e7ec8b7c1" target="_blank" rel="noopener">Data</a>
+      </div>
+    </div>
+  </article>
 
-<h2>Open Collaboration</h2>
-<p>
-  I am happy to collaborate on computational oncology and robustness in ML. If you are interested,
-  please reach out via the <a href="{{ '/contact/' | relative_url }}">contact</a> page.
-</p>
+  <!-- DCAST -->
+  <article class="project-card">
+    <img class="project-card__img"
+         src="{{ '/assets/img/projects/dcast.jpg' | relative_url }}"
+         alt="Conceptual illustration for DCAST"
+         loading="lazy" width="320" height="200">
+    <div class="project-card__body">
+      <h3 class="project-card__title">DCAST: Diverse Class-Aware Self-Training</h3>
+      <p class="project-card__meta">Fairness • Selection-bias mitigation • Semi-supervised learning</p>
+      <p class="project-card__abstract">
+        A self-training framework that explicitly encourages class diversity in the pseudo-labeling loop,
+        mitigating selection bias and improving fairness across under-represented subgroups.
+      </p>
+      <div class="project-card__links">
+        <a class="chip" href="https://arxiv.org/abs/2409.20126" target="_blank" rel="noopener">Paper</a>
+        <a class="chip" href="https://arxiv.org/pdf/2409.20126.pdf" target="_blank" rel="noopener">PDF</a>
+        <a class="chip" href="{{ '/publications/' | relative_url }}">Related publications</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- ELISL -->
+  <article class="project-card">
+    <img class="project-card__img"
+         src="{{ '/assets/img/projects/elisl.jpg' | relative_url }}"
+         alt="ELISL concept image"
+         loading="lazy" width="320" height="200">
+    <div class="project-card__body">
+      <h3 class="project-card__title">ELISL: Early–Late Integrated Synthetic Lethality</h3>
+      <p class="project-card__meta">Multi-omics • Representation learning • Synthetic lethality</p>
+      <p class="project-card__abstract">
+        A hybrid early–late integration pipeline that leverages contextual omics features and
+        learned embeddings to predict synthetic-lethality interactions with enhanced generalization.
+      </p>
+      <div class="project-card__links">
+        <a class="chip" href="https://academic.oup.com/bioinformatics/article/40/1/btad764/7479688" target="_blank" rel="noopener">Journal</a>
+        <a class="chip" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11616771/pdf/btad764.pdf" target="_blank" rel="noopener">PDF</a>
+        <a class="chip" href="https://github.com/joanagoncalveslab/ELISL" target="_blank" rel="noopener">Code</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- SBSL / Selection bias in SL -->
+  <article class="project-card">
+    <img class="project-card__img"
+         src="{{ '/assets/img/projects/sbsl.jpg' | relative_url }}"
+         alt="Selection bias concept"
+         loading="lazy" width="320" height="200">
+    <div class="project-card__body">
+      <h3 class="project-card__title">Overcoming Selection Bias in Synthetic-Lethality Prediction</h3>
+      <p class="project-card__meta">Bias & evaluation • SL prediction • Bioinformatics 2022</p>
+      <p class="project-card__abstract">
+        A study that quantifies and mitigates selection bias in SL prediction pipelines, with evaluation
+        protocols aligned to realistic data collection processes.
+      </p>
+      <div class="project-card__links">
+        <a class="chip" href="https://academic.oup.com/bioinformatics/article/38/18/4360/6649727" target="_blank" rel="noopener">Journal</a>
+        <a class="chip" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9477536/pdf/btac523.pdf" target="_blank" rel="noopener">PDF</a>
+        <a class="chip" href="https://github.com/joanagoncalveslab/SBSL" target="_blank" rel="noopener">Code</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- PAMOGK -->
+  <article class="project-card">
+    <img class="project-card__img"
+         src="{{ '/assets/img/projects/pamogk.jpg' | relative_url }}"
+         alt="PAMOGK pathway graph kernel schematic"
+         loading="lazy" width="320" height="200">
+    <div class="project-card__body">
+      <h3 class="project-card__title">PAMOGK: Pathway Graph Kernel for Patient Clustering</h3>
+      <p class="project-card__meta">Graph kernels • Multi-omics • Patient stratification</p>
+      <p class="project-card__abstract">
+        A pathway-aware graph-kernel approach that integrates multi-omics profiles to uncover clinically
+        meaningful patient subgroups and disease mechanisms.
+      </p>
+      <div class="project-card__links">
+        <a class="chip" href="https://academic.oup.com/bioinformatics/article/36/21/5237/5878954" target="_blank" rel="noopener">Journal</a>
+        <a class="chip" href="https://academic.oup.com/bioinformatics/article-pdf/36/21/5237/50692790/btaa655.pdf" target="_blank" rel="noopener">PDF</a>
+        <a class="chip" href="https://github.com/tastanlab/pamogk" target="_blank" rel="noopener">Code</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- SNMF -->
+  <article class="project-card">
+    <img class="project-card__img"
+         src="{{ '/assets/img/projects/snmf.jpg' | relative_url }}"
+         alt="Mutational signatures illustration"
+         loading="lazy" width="320" height="200">
+    <div class="project-card__body">
+      <h3 class="project-card__title">SNMF: Mutational Signatures & DNA Repair Deficiencies</h3>
+      <p class="project-card__meta">Mutational processes • Repair deficiency prediction</p>
+      <p class="project-card__abstract">
+        Integrated learning of mutational signatures coupled with downstream prediction of DNA repair
+        deficiencies, aiming to link mutational processes to actionable therapeutic signals.
+      </p>
+      <div class="project-card__links">
+        <a class="chip" href="https://www.biorxiv.org/content/10.1101/2024.11.27.624656v1" target="_blank" rel="noopener">Preprint</a>
+        <a class="chip" href="https://www.biorxiv.org/content/10.1101/2024.11.27.624656v1.full.pdf" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Metagenomic Antibiotic Resistance -->
+  <article class="project-card">
+    <img class="project-card__img"
+         src="{{ '/assets/img/projects/metagenomics.jpg' | relative_url }}"
+         alt="Metagenomic study illustration"
+         loading="lazy" width="320" height="200">
+    <div class="project-card__body">
+      <h3 class="project-card__title">Antibiotic Resistance Across Soil Types (Metagenomics)</h3>
+      <p class="project-card__meta">Metagenomics • Resistome profiling • Environmental variation</p>
+      <p class="project-card__abstract">
+        A metagenomic comparison of resistomes across diverse soil and geographic contexts,
+        exploring environmental correlates of antibiotic resistance prevalence.
+      </p>
+      <div class="project-card__links">
+        <a class="chip" href="https://www.biorxiv.org/content/10.1101/2024.09.30.615846v1" target="_blank" rel="noopener">Preprint</a>
+        <a class="chip" href="https://www.biorxiv.org/content/10.1101/2024.09.30.615846v1.full.pdf" target="_blank" rel="noopener">PDF</a>
+        <a class="chip" href="https://data.4tu.nl/datasets/8b59c203-747b-4e9c-a76e-7ae57b349671/1" target="_blank" rel="noopener">Data</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Domain Adaptation (BNAIC/BeneLearn) -->
+  <article class="project-card">
+    <img class="project-card__img"
+         src="{{ '/assets/img/projects/domain-adapt.jpg' | relative_url }}"
+         alt="Domain adaptation concept"
+         loading="lazy" width="320" height="200">
+    <div class="project-card__body">
+      <h3 class="project-card__title">Domain Adaptation Beyond a Specific Target Domain</h3>
+      <p class="project-card__meta">Distribution shift • Importance weighting • BNAIC/BeneLearn</p>
+      <p class="project-card__abstract">
+        Methods and analyses for domain adaptation without access to a fixed target domain, including
+        importance-weighted learning strategies and student-paper implementations.
+      </p>
+      <div class="project-card__links">
+        <a class="chip" href="https://bnaic2023.tudelft.nl/pre-proceedings" target="_blank" rel="noopener">Proceedings</a>
+        <a class="chip" href="https://bnaic2023.tudelft.nl/static/media/BNAICBENELEARN_2023_paper_53.7bc08f472f3c5e2c829a.pdf" target="_blank" rel="noopener">PDF</a>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section class="projects other-projects">
+  <h2>Other Interests & Projects</h2>
+  <ul class="other-list">
+    <li><strong>Robust evaluation under shift</strong>: protocols/metrics that reflect real data collection.</li>
+    <li><strong>Benchmarking pipelines</strong>: reproducible, bias-aware evaluation for target discovery.</li>
+    <li><strong>Graph representation learning</strong>: pathway-aware, interaction-centric embeddings.</li>
+    <li><strong>Open science</strong>: well-documented datasets, code, and compute-reproducible artifacts.</li>
+  </ul>
+  <p style="margin-top:.6rem">
+    See the <a href="{{ '/publications/' | relative_url }}">Publications</a> page for complete references.
+  </p>
+</section>
