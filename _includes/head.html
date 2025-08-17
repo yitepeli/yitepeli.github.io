@@ -1,6 +1,15 @@
-{% comment %}
-This file extends the <head> for the Minima theme. It will be included automatically if present.
-{% endcomment %}
-<link rel="icon" href="{{ "/assets/img/favicon.svg" | relative_url }}" type="image/svg+xml">
-<link rel="alternate icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
+{%- comment -%}
+This overrides Minima's head but keeps all essentials.
+{%- endcomment -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{%- seo -%}
+
+<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+{%- feed_meta -%}
+
+<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="alternate icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
 <meta name="theme-color" content="#ffffff">
